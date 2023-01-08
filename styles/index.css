@@ -2,7 +2,9 @@ body{
     background-color: #151515;
 } 
 
-h1 {
+#title {
+    transition-property: opacity;
+    transition-duration: 1s;
 
     font-family: 'Moon Dance', cursive;
     font-size: 5em;
@@ -12,7 +14,9 @@ h1 {
 
 }
 
-.init {
+#init {
+    transition-property: background, opacity;
+    transition-duration: 1s;
 
     width: 10em;
     top: 250px;
@@ -27,5 +31,10 @@ h1 {
     border-radius: 5em;
 
     cursor: pointer;
+}
+
+#init:hover{
+    background-color: red;
+
 }
 
