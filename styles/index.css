@@ -3,8 +3,6 @@ body{
 } 
 
 #title {
-    transition-property: opacity;
-    transition-duration: 1s;
 
     font-family: 'Moon Dance', cursive;
     font-size: 5em;
@@ -17,7 +15,8 @@ body{
 #init {
     transition-property: background, opacity;
     transition-duration: 1s;
-
+    opacity : 5%;
+    
     width: 10em;
     top: 250px;
     left: calc(50% - 5em);
@@ -34,7 +33,8 @@ body{
 }
 
 #init:hover{
-    background-color: red;
 
+    background-color: red;
+    opacity : 100%;
 }
 
