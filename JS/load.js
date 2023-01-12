@@ -1,5 +1,11 @@
-const bgc = "rgb(94, 55, 25)";
+const obsr = new IntersectionObserver((en) => {
+    en.forEach((en) => {
+        if (en.isIntersecting) en.target.classList.add("sw"); else{
+            en.target.classList.remove("sw");
+        }
+    });
+});
 
-document.addEventListener('DOMContentLoaded', function(){
-	
-})
+
+const HddnElements = document.querySelectorAll(".hd");
+HddnElements.forEach((element) => obsr.observe(element));

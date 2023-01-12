@@ -1,8 +1,33 @@
 body {
-    transition-property: background, opacity;
-    transition-duration: 3s;
-    transition-delay: 2s;
-
     background-color : #000000;
+    padding : 0;
+    margin : 0;
+}
 
+section {
+    
+    color: #fff; 
+
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+
+}
+
+.hd {
+    color: #fff; 
+    background: #000;
+    opacity: 0%;
+    transition: opacity, opacity, color;
+    transition-duration: 5s;
+}
+
+.sw {
+
+    color: #000; 
+    background: #fff;
+    opacity: 100%;
+    transition: opacity, opacity, color;
+    transition-duration: 5s;
 }
