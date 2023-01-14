@@ -1,0 +1,14 @@
+body {
+    background: green;
+}
+
+section {
+    
+    color: #fff; 
+    font-size: 2vh;
+
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
