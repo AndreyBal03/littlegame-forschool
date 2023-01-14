@@ -4,9 +4,11 @@ body {
     margin : 0;
 }
 
+
 section {
     
     color: #fff; 
+    font-size: 2vh;
 
     display: grid;
     place-items: center;
@@ -30,4 +32,15 @@ section {
     opacity: 100%;
     transition: opacity, opacity, color;
     transition-duration: 5s;
+}
+
+#start {
+    width: 40vh;
+    font-size: 4vh;
+
+    position: relative;
+    text-align: center;
+    border-radius: 20vh;
+
+    cursor: pointer;
 }

@@ -1,0 +1,55 @@
+
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+
+section {
+    
+    color: #fff; 
+    font-size: 2vh;
+
+    place-items: center;
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
+
+}
+
+h2 {
+    grid-column-start: 2
+}
+
+#option1{
+
+    width: 40vh;
+    font-size: 4vh;
+
+    position: relative;
+    text-align: center;
+
+    grid-column-start: 1;
+    grid-row-start: 2;
+
+    border-radius: 20vh;
+
+    cursor: pointer;
+}
+
+#option2{
+
+    width: 40vh;
+    font-size: 4vh;
+
+    position: relative;
+    text-align: center;
+
+    grid-column-start: 3;
+    grid-row-start: 2;
+
+    border-radius: 20vh;
+
+    cursor: pointer;
+}
